@@ -344,6 +344,7 @@
 "Assets/MazeGenerator/Scripts/RecursiveTreeMazeGenerator.cs"
 "Assets/MazeGenerator/Scripts/RollerBall.cs"
 "Assets/MazeGenerator/Scripts/TreeMazeGenerator.cs"
+"Assets/RestartGame.cs"
 "Assets/Script/FollowPlayer.cs"
 "Assets/Script/PlayerController.cs"
 "Assets/Script/RosPublisherExample.cs"

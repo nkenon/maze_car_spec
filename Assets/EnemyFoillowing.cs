@@ -5,9 +5,9 @@ using UnityEngine.UI;
 public class EnemyFoillowing : MonoBehaviour
 {
     // Start is called before the first frame update
-    int MoveSpeed = 4;
-    int MaxDist = 10;
-    int MinDist = 5;
+    int MoveSpeed = 1;
+    int MaxDist = 20;
+    int MinDist = 10;
     public GameObject Vehicle;
     void Start()
     {

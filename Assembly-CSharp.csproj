@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{c1562785-a283-cbb3-3a8e-3069d4c191dd}</ProjectGuid>
+    <ProjectGuid>{2bfe0617-d73e-13fd-a241-6f080f4ea037}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -43,13 +43,14 @@
      <Compile Include="Assets/MazeGenerator/Scripts/TreeMazeGenerator.cs" />
      <Compile Include="Assets/Script/FollowPlayer.cs" />
      <Compile Include="Assets/MazeGenerator/Scripts/MazeCell.cs" />
+     <Compile Include="Assets/EnemyFoillowing.cs" />
      <Compile Include="Assets/Script/PlayerController.cs" />
      <Compile Include="Assets/MazeGenerator/Scripts/MazeSpawner.cs" />
      <Compile Include="Assets/MazeGenerator/Scripts/RandomTreeMazeGenerator.cs" />
      <Compile Include="Assets/MazeGenerator/Scripts/RecursiveMazeGenerator.cs" />
      <Compile Include="Assets/MazeGenerator/Scripts/OldestTreeMazeGenerator.cs" />
      <Compile Include="Assets/MazeGenerator/Scripts/RecursiveTreeMazeGenerator.cs" />
-     <Compile Include="Assets/EnemyFoillowing.cs" />
+     <Compile Include="Assets/RestartGame.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
@@ -683,46 +684,46 @@
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Robotics.ROSTCPConnector">
-        <HintPath>/Users/nakiakenon/Downloads/2022Fall-Spec-main/Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.dll</HintPath>
+        <HintPath>/Users/nakiakenon/Documents/GitHub/maze_car_spec/Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/nakiakenon/Downloads/2022Fall-Spec-main/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/Users/nakiakenon/Documents/GitHub/maze_car_spec/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Users/nakiakenon/Downloads/2022Fall-Spec-main/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>/Users/nakiakenon/Documents/GitHub/maze_car_spec/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Users/nakiakenon/Downloads/2022Fall-Spec-main/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>/Users/nakiakenon/Documents/GitHub/maze_car_spec/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Robotics.ROSTCPConnector.Editor">
-        <HintPath>/Users/nakiakenon/Downloads/2022Fall-Spec-main/Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.Editor.dll</HintPath>
+        <HintPath>/Users/nakiakenon/Documents/GitHub/maze_car_spec/Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/nakiakenon/Downloads/2022Fall-Spec-main/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/Users/nakiakenon/Documents/GitHub/maze_car_spec/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/Users/nakiakenon/Downloads/2022Fall-Spec-main/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/Users/nakiakenon/Documents/GitHub/maze_car_spec/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/Users/nakiakenon/Downloads/2022Fall-Spec-main/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/Users/nakiakenon/Documents/GitHub/maze_car_spec/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/nakiakenon/Downloads/2022Fall-Spec-main/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/nakiakenon/Documents/GitHub/maze_car_spec/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Robotics.ROSTCPConnector.Messages">
-        <HintPath>/Users/nakiakenon/Downloads/2022Fall-Spec-main/Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.Messages.dll</HintPath>
+        <HintPath>/Users/nakiakenon/Documents/GitHub/maze_car_spec/Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.Messages.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/nakiakenon/Downloads/2022Fall-Spec-main/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/Users/nakiakenon/Documents/GitHub/maze_car_spec/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/nakiakenon/Downloads/2022Fall-Spec-main/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/nakiakenon/Documents/GitHub/maze_car_spec/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>/Users/nakiakenon/Downloads/2022Fall-Spec-main/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>/Users/nakiakenon/Documents/GitHub/maze_car_spec/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Robotics.ROSTCPConnector.MessageGeneration">
-        <HintPath>/Users/nakiakenon/Downloads/2022Fall-Spec-main/Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.MessageGeneration.dll</HintPath>
+        <HintPath>/Users/nakiakenon/Documents/GitHub/maze_car_spec/Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.MessageGeneration.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
