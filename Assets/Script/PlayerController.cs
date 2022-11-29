@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+
+
 public class PlayerController : MonoBehaviour
 {
     //private variables
@@ -10,7 +13,6 @@ public class PlayerController : MonoBehaviour
     private float horizontalInput;
     private float verticalInput;
     private Rigidbody playerRb;
-    [SerializeField] GameObject centerOfMass;
     [SerializeField] TextMeshProUGUI speedometerText;
     private float speed = 5.0f;
 
@@ -26,7 +28,6 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
-        playerRb.centerOfMass = centerOfMass.transform.position;
         life = 3;
         SetLifeText();
         winTextObject.SetActive(false);
@@ -85,7 +86,8 @@ public class PlayerController : MonoBehaviour
         lifeText.text = "Life: " + life.ToString();
         if (life == 0)
         {
-            loseTextObject.SetActive(true);
+            SceneManager.LoadSceneAsync(
+                SceneManager.GetActiveScene().buildIndex);
         }
     }
 
@@ -94,14 +96,12 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Obstacles"))
         {
-            other.gameObject.SetActive(false);
+           
             life -= 1;
             SetLifeText();
         }
-        if (other.gameObject.CompareTag("Finish"))
-        {
-            winTextObject.SetActive(true);
-        }
+
+
     }
 
 }

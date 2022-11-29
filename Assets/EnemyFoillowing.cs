@@ -7,7 +7,7 @@ public class EnemyFoillowing : MonoBehaviour
     // Start is called before the first frame update
     int MoveSpeed = 1;
     int MaxDist = 20;
-    int MinDist = 10;
+    int MinDist = 0;
     public GameObject Vehicle;
     void Start()
     {

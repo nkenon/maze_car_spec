@@ -45,12 +45,12 @@
      <Compile Include="Assets/MazeGenerator/Scripts/MazeCell.cs" />
      <Compile Include="Assets/EnemyFoillowing.cs" />
      <Compile Include="Assets/Script/PlayerController.cs" />
+     <Compile Include="Assets/RestartGame.cs" />
      <Compile Include="Assets/MazeGenerator/Scripts/MazeSpawner.cs" />
      <Compile Include="Assets/MazeGenerator/Scripts/RandomTreeMazeGenerator.cs" />
      <Compile Include="Assets/MazeGenerator/Scripts/RecursiveMazeGenerator.cs" />
      <Compile Include="Assets/MazeGenerator/Scripts/OldestTreeMazeGenerator.cs" />
      <Compile Include="Assets/MazeGenerator/Scripts/RecursiveTreeMazeGenerator.cs" />
-     <Compile Include="Assets/RestartGame.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
